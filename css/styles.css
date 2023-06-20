@@ -1,0 +1,106 @@
+/* Dideño del Header */
+
+.bg-tomato {
+    background-color: tomato;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+header {
+    display: grid;
+    grid-template-columns: 3fr;
+    align-items: center;
+    justify-content: center;
+}
+
+header div img {
+    display: flex;
+    justify-content: left;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+header div h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+header search form {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: right;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    order: 1;
+    margin: 5px;
+}
+
+section div article p {
+    padding: 1rem
+}
+
+section div article img {
+    padding: 2rem;
+}
+
+.navegador {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* Diseño del main */
+
+
+
+
+
+/* Diseño del footer */
+
+.instagram {
+    margin-top: 30px;
+    height: 50px;
+    width: 70px;
+}
+
+.whatsapp {
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.youtube {
+    margin-top: 15px;
+    height: 40px;
+    width: 40px;
+    margin-left: 14px;
+}
+
+.twitter{
+    margin-top: 25px;
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
