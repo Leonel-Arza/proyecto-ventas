@@ -1,22 +1,31 @@
 /* Dideño del Header */
 
-.bg-tomato {
-    background-color: tomato;
-}
+/* @media (min-width: 1024px) and (min-height: 1200px) {
+    nav ul li a {
+        text-decoration: none;
+} */
 
-.logo{
+/* body{
+    background-image: url(../images/auto.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+} */
+
+.logo {
     display: flex;
     align-items: center;
     height: 100px;
     margin-left: 5px;
     margin-top: 5px;
 }
-header {
+
+/* header div {
     display: grid;
     grid-template-columns: 3fr;
-    align-items: center;
+    align-items:center;
     justify-content: center;
-}
+} */
 
 header div img {
     display: flex;
@@ -32,17 +41,16 @@ header div h1 {
     align-items: center;
     font-style: oblique;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 5%;
 
 }
 
-header search form {
+/* header search form {
     display: flex;
-    position: absolute;
-    top: 0;
-    right: 0;
+    flex-direction: row;
+    position:static;
     justify-content: right;
-
-}
+} */
 
 header nav ul li {
     display: inline-block;
@@ -60,8 +68,92 @@ section div article img {
     padding: 2rem;
 }
 
-.navegador {
+nav ul li {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20%;
+    box-shadow: 5px 5px 20px black;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+/* Diseño del main */
+
+@media (min-width: 375px) and (min-height: 420px) {
+    body {
+        background-color: cornsilk;
+        flex-direction: row;
+    }
+}
+
+.bg-tomato {
+    display: grid;
+    background-color:whitesmoke;
+    justify-content: center;
+
+}
+
+h5 {
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    margin-left: 30px;
+}
+
+.artic1{
+    display: grid;
+    grid-template-columns: min-content;
+    justify-content: center;
+}
+
+.artic2{
+    display: grid;
+    grid-template-columns: min-content;
+    justify-content: center;
+}
+
+.artic3{
+    display: grid;
+    grid-template-columns: min-content;
+    justify-content: center;
+}
+
+.artic4{
+    display: grid;
+    grid-template-columns: min-content;
+    justify-content: center;
+}
+
+.artic5{
+    display: grid;
+    grid-template-columns: min-content;
+    justify-content: center;
+}
+
+.artic6{
+    display: grid;
+    grid-template-columns: min-content;
+    justify-content: center;
+}
+
+.artic7{
+    display: grid;
+    grid-template-columns: min-content;
+    justify-content: center;
+}
+
+.artic8{
+    display: grid;
+    grid-template-columns: min-content;
     justify-content: center;
 }
 
@@ -69,18 +161,30 @@ section div article img {
 
 
 
-/* Diseño del main */
-
-
-
 
 
 /* Diseño del footer */
 
+.titulo-pie{
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+    
+}
+
+.form-email{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+}
+
+
+
 .instagram {
-    margin-top: 30px;
-    height: 50px;
-    width: 70px;
+    margin-top: 80px;
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
 }
 
 .whatsapp {
@@ -97,10 +201,22 @@ section div article img {
     margin-left: 14px;
 }
 
-.twitter{
+.twitter {
     margin-top: 25px;
     height: 40px;
     width: 40px;
     margin-left: 15px;
     margin-bottom: 50px;
+
+}
+
+.derechos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div a{
+    flex-flow: row;
+    
 }
